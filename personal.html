@@ -1,0 +1,133 @@
+<html>
+<head>
+  <title>Personal Information Form</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset style="background-color:pink;">
+      <legend><strong>Personal Information</strong></legend>
+
+      <table cellpadding="6" cellspacing="0" border="0" width="50%">
+        <tr>
+          <td><label for="fname"><strong>First Name</strong></label></td>
+          <td><input type="text" id="fname" name="first_name" size="35" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="lname"><strong>Last Name</strong></label></td>
+          <td><input type="text" id="lname" name="last_name" size="35" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="sexSelect">Sex:</label></td>
+          <td>
+            <select id="sexSelect" name="sex_select">
+              <option value="male" selected>Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><strong>Sex:</strong></td>
+          <td>
+            <label><input type="radio" name="sex" value="male" checked /> Male</label>
+            &nbsp;
+            <label><input type="radio" name="sex" value="female" /> Female</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label><strong>Commonly used browser:</strong></label></td>
+          <td>
+            <label><input type="radio" name="browser" value="mozilla" /> Mozilla</label>
+            &nbsp;
+            <label><input type="radio" name="browser" value="chrome" /> Chrome</label>
+            &nbsp;
+            <label><input type="radio" name="browser" value="safari" /> Safari</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label><strong>Hobbies:</strong></label></td>
+          <td>
+            <label><input type="checkbox" name="hobby_reading" /> Reading</label>
+            &nbsp;
+            <label><input type="checkbox" name="hobby_sleeping" /> Sleeping</label>
+            &nbsp;
+            <label><input type="checkbox" name="hobby_gaming" /> Gaming</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label><strong>Qualification:</strong></label></td>
+          <td>
+            <label><input type="checkbox" name="qual_sslc" /> SSLC</label>
+            &nbsp;
+            <label><input type="radio" name="qualification" value="+2" /> +2</label>
+            &nbsp;
+            <label><input type="radio" name="qualification" value="others" /> Others</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td valign="top"><label for="books"><strong>Books Readed</strong></label></td>
+          <td>
+            <textarea id="books" name="books_read" cols="40" rows="10"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="phone"><strong>Phone number</strong></label></td>
+          <td><input type="text" id="phone" name="phone" value="" size="30" /></td>
+        </tr>
+        <tr>
+          <td><label for="email"><strong>Email id.</strong></label></td>
+          <td><input type="email" id="email" name="email" size="30" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="regnum"><strong>Register number</strong></label></td>
+          <td><input type="text" id="regnum" name="register_number" value="54892455" size="30" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="regid"><strong>Register id</strong></label></td>
+          <td><input type="text" id="regid" name="register_id" value="no" size="30" disabled /></td>
+        </tr>
+
+        <tr>
+          <td valign="top"><label for="dept"><strong>Department</strong></label></td>
+          <td>
+            <select id="dept" name="department" size="4">
+              <option value="cs">CS</option>
+              <option value="ee">EE</option>
+              <option value="ce">CE</option>
+              <option value="me">ME</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="dob"><strong>DOB</strong></label></td>
+          <td><input type="text" id="dob" name="dob" placeholder="dd / mm / yyyy" size="15" /></td>
+        </tr>
+	 <tr>
+	  <td valign="left"><label for="about"><strong>About you</strong></label></td>
+           <td> <textarea id="about" name="about" cols="40" rows="10"></textarea>
+          </td>
+
+      </table>
+    </fieldset>
+    <table border="1" cellpadding="6" cellspacing="0" width="148%">
+      <tr>
+       <center> <td align="center"><input type="submit" value="Click Me!" /></td></center>
+	</tr>
+    </table>
+  </form>
+</body>
+</html>
+
+
+	
